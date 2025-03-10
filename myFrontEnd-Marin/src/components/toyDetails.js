@@ -35,21 +35,6 @@ function ToyDetails() {
         </tbody>
       </table>
 
-      {/* Botón para regresar */}
-      <button
-        onClick={() => navigate('/toysParameters')}
-        style={{
-          marginTop: '20px',
-          padding: '10px 15px',
-          backgroundColor: '#007bff',
-          color: 'white',
-          border: 'none',
-          borderRadius: '5px',
-          cursor: 'pointer'
-        }}
-      >
-        Volver a ToysParameters
-      </button>
     </div>
   );
 }
