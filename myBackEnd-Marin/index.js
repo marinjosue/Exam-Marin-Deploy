@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const userRoutes = require('./routes/userRoutes');
+const toysRoutes = require('./routes/toyRoutes');
 
 
 const app = express();
@@ -19,6 +20,9 @@ app.use(express.json());
 
 // Rutas
 app.use('/api/users', userRoutes);
+app.use('/api/toys', toysRoutes);
+
+
 
 // Puerto del servidor
 const PORT = process.env.PORT || 3011;
