@@ -10,7 +10,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <Routes>
-            <Route path="" element={<ToysParameters />} />
+            <Route path="/" element={<ToysParameters />} />
             <Route path="/toyDetails" element={<ToyDetails />} />
           </Routes>
         </header>
